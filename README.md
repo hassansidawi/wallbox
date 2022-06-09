@@ -20,6 +20,10 @@ Return quantity of changes to turn a sequence of 0's and 1's interspersed.
 Return 0 if it is not possible.
 count = count_coin_flips(seq)
 
+This function uses a recursive function:
+  res, count = flip(seq, res, count)
+which tries to transform seq into a intersperced list (res)
+
 To test this function, use pytest executing on a terminal:
 python -m pytest -v -k coin --disable-pytest-warnings
 
