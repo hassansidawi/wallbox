@@ -29,3 +29,16 @@ python -m pytest -v -k coin --disable-pytest-warnings
 
 it will execute the parametrized test:
 test_count_coin(seq, count)
+
+Exercice 2 
+
+Check if a directory contains an .exe file that meets some requirements.
+In this case, the function returns the file name:
+filename = request(root_dir)
+
+To test this function, use pytest executing on a terminal:
+python -m pytest -v -k file --disable-pytest-warnings
+
+it will execute the parametrized test:
+test_file(root_dir, filename)
+
