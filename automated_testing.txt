@@ -12,6 +12,7 @@ Habitually, systems involving integration between hardware and software require:
 - Cloud-based servers, mobile and web applications from which the devices can be monitored and controlled;
 - A Device API to enable routine data and device diagnostics pulls to cloud servers, as well as functionality manipulation.
 
+To complicate things even further, Internet of Things (IoT) comes with its different protocols in addition to Wi-Fi and Bluetooth.
 Furthermore, embedded systems are subjected to regulatory requirements such as IEC 61508 and MISRA to ensure the safety and reliability of programmable electronic devices.
 
 Programming languages used in embedded systems tend to be either C or C++. These languages, more low-level than those used in web development. Lack of code portability means that cross-compilation is required between development and target environments.
