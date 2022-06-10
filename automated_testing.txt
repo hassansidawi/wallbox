@@ -1,0 +1,10 @@
+In traditional software development, code can be built and tests can be automated in production-like environments.
+This process is repeatable and predictable, promotes code quality, catch bugs early, reduce the risk of regressions and accelerate development iterations.
+It is very mature in the web development space, and increasingly so in mobile app development as well.
+
+Though things are increasingly complicated in the embedded world, the end user’s expectations are the same — modern systems should just work.
+The interplay between hardware and software made things more difficult. A different approach when hardware is involved.
+It isn’t as easy to isolate code because of the dependencies to the underlying hardware that can hardly be overlooked.
+Habitually, systems involving integration between hardware and software require:
+- The ability to gather sensor data by reacting to a variety of inputs like touch, voice and motion tracking;
+- Different types of interoperating hardware (boards, machines, cameras);
