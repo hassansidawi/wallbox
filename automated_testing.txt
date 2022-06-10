@@ -5,6 +5,15 @@ It is very mature in the web development space, and increasingly so in mobile ap
 Though things are increasingly complicated in the embedded world, the end user’s expectations are the same — modern systems should just work.
 The interplay between hardware and software made things more difficult. A different approach when hardware is involved.
 It isn’t as easy to isolate code because of the dependencies to the underlying hardware that can hardly be overlooked.
+
 Habitually, systems involving integration between hardware and software require:
 - The ability to gather sensor data by reacting to a variety of inputs like touch, voice and motion tracking;
 - Different types of interoperating hardware (boards, machines, cameras);
+- Cloud-based servers, mobile and web applications from which the devices can be monitored and controlled;
+- A Device API to enable routine data and device diagnostics pulls to cloud servers, as well as functionality manipulation.
+
+Furthermore, embedded systems are subjected to regulatory requirements such as IEC 61508 and MISRA to ensure the safety and reliability of programmable electronic devices.
+
+Programming languages used in embedded systems tend to be either C or C++. These languages, more low-level than those used in web development. Lack of code portability means that cross-compilation is required between development and target environments.
+
+ In general, the ability to decouple programming logic from hardware makes for easier subsystem testing. 
