@@ -1,3 +1,9 @@
+Introduction:
+This text is based on my experience working with embedded software testing in the aerospace domain. We don't use Bluetooth neither Wi-Fi connections in our applications. We have specific military protocols to test our pure simulated systems or hardware In the Loop (HIL) environments.
+
+
+My answer:
+
 In traditional software development, code can be built and tests can be automated in production-like environments.
 It is very mature in the web development space, and increasingly so in mobile app development as well.
 
